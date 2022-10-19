@@ -1,0 +1,184 @@
+body {
+
+    background-image: url(../images/watercolor.png);
+    background-color: bisque;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(80, 34, 34);
+}
+
+header {
+
+    background-color: rgba(185, 116, 116, 0.75);
+    padding: 25px;
+    text-align: center; 
+    margin-bottom: 60px;
+    color: white;
+
+}
+
+.container {
+
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+span {
+
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+
+}
+
+footer {
+
+    padding: 25px;
+    background-color: rgba(185, 116, 116, 0.75);
+    clear:both;
+    text-align: center;
+}
+
+.glavni-naslov {
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.to-do-list, .shopping-list {
+
+    background-color: rgba(228, 195, 135, 0.50);
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border-color: rgb(245, 208, 163);
+    border-style: double;
+    border-width: 4px;
+}
+
+.to-do-list {
+
+    margin-left: 80px;
+}
+
+.visit-list {
+
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+    float:left;
+    border-color: rgb(245, 208, 163);
+    border-style: double;
+    border-width: 4px;
+    background-color: rgba(228, 195, 135, 0.50);
+
+}
+
+.top-five {
+
+    background-color: beige;
+    margin: 10px;
+    padding: 5px;
+    float:left;
+    border-color: rgb(245, 208, 163);
+    border-style: double;
+    border-width: 4px;
+    background-color: rgba(228, 195, 135, 0.50);
+}
+
+ol {
+
+    list-style-type: lower-alpha;
+    list-style-position:inherit;
+
+}
+
+ul {
+
+    list-style-type: circle;
+    list-style-position: inherit;
+}
+
+h4 {
+
+    font-size: 30px;
+    text-align: center;
+    font-stretch: expanded;
+    color: rgb(185, 90, 90);
+
+}
+
+.index-nav {
+
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font: lighter 20px Helvetica, Arial;
+}
+
+.index-nav li {
+    display: inline-block;
+    padding: 5px 20px;    
+    margin: 0;
+    vertical-align: top;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+
+  }
+
+.index-nav a { /* ovo se stajluje u navigaciji*/
+
+    background-color: blanchedalmond;
+    background: linear-gradient(#d97068, #d8bebc);
+    color: #863c99;
+    padding: 15px; /*ovo je za velicinu "dugmeta" na nav delu.*/
+    border: #d8bebc 5px double;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.index-nav a:hover {
+
+    background-color: #a5504d;
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, .3); /*nece raditi hover ako nema ovoga za broj. I pritom je ovo za koliko ce gradijenta da bude u shadowboxu u dugmetu.*/
+}
+
+.bottom-nav {
+
+    margin:0;
+    padding: 0;
+}
+
+.bottom-nav li {
+
+    display: inline-block;
+    margin: 0 15px; /*ovo je da se radvoje slova, bukvalno list items jedni od drugog horizontalno.*/
+    vertical-align: top;
+    
+}
+
+.bottom-nav a {
+
+    background-color:#a5504d;
+    background: linear-gradient(#d97068, #d8bebc);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border:rgb(245, 208, 163) double 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.bottom-nav a:hover {
+ 
+    box-shadow: inset 4px 2px 4px 2px rgba(116, 31, 31, 0.5); /*ne zaboravi inset i velicinu i mora da ima i top i bottom visinu*/ 
+    background-color:#d97068;
+}
